@@ -1,0 +1,134 @@
+label{
+    position:relative;
+    top: 10px;
+    left: 75px;
+    color: white;
+    text-indent: 100px;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 300%;
+    float:left;
+}
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #93C572 ;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+nav ul{
+    position:static;
+    top: 8px;
+    right: 16px;
+    color: white;
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: #A3EE72 ;
+    transition: .5s;
+    
+
+}
+h1{
+    text-align: center;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 300%;
+}
+img{
+    margin-top: 2%;
+    border-radius: 10%;
+
+}
+.transbox{
+    background: rgba(255, 255, 255, 0.712);
+    width: 450px;
+    height: 450px;
+    line-height: 250x;
+    color: rgb(0, 0, 0);
+    font-size: 300%;
+    font-family: "Comic Neue", cursive;
+    font-weight: bold;
+    font-style: normal;
+    display: block;
+    margin-left: 5%;
+    margin-right: 0;
+    padding: 7px 13px;
+    text-align: center;
+    border-radius: 10%;
+}
+.gamingpre{
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+    font-size: medium;
+
+} 
+.transbox2{
+    background: rgba(255, 255, 255, 0.712);
+    width: 450px;
+    height: 450px;
+    line-height: 250x;
+    color: rgb(0, 0, 0);
+    font-size: 300%;
+    font-family: "Comic Neue", cursive;
+    font-weight: bold;
+    font-style: normal;
+    display: block;
+    margin-left: 5%;
+    margin-right: 0;
+    padding: 7px 13px;
+    text-align: center;
+    border-radius: 10%;
+}
+.transbox3{
+    background: rgba(255, 255, 255, 0.712);
+    width: 450px;
+    height: 450px;
+    line-height: 250x;
+    color: rgb(0, 0, 0);
+    font-size: 300%;
+    font-family: "Comic Neue", cursive;
+    font-weight: bold;
+    font-style: normal;
+    display: block;
+    margin-left: 5%;
+    margin-right: 0;
+    padding: 7px 13px;
+    text-align: center;
+    border-radius: 10%;
+}
+.a1:hover{
+    background: #A3EE72 ;
+    transition: .5s;
+    border-radius: 10%;
+}
+html { 
+    height: 100%; 
+    width: 960px; 
+}
+.interest-container {
+    height: 100vh; /* Set the height of the container to 100% of the viewport height */
+    overflow-y: auto; /* Enable vertical scrolling */
+}

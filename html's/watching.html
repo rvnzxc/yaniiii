@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/watching.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Document</title>
+</head>
+<body style="background-image: url(/assets/5098675.jpg);">
+    <h3>Anime's That I Highly Recommended</h3>
+    <button type="button" class="collapsible" style="text-align: center;" >SHOUNEN</button>
+    <div class="content">
+    <div class="background">
+    <ol>
+        <li>One Piece</li>
+        <li>Naruto</li>
+        <li>Bleach</li>
+        <li>Hunter X Hunter</li>
+        <li>Jujutsu Kaisen</li>
+        <li>Black Clover</li>
+        <li>Demon Slayer</li>
+        <li>Nanatsu No Taizai</li>
+    </ol>
+</div>
+</div>
+<br>
+<br>
+<button type="button" class="collapsible" style="text-align: center; width: auto; margin-left: 22%;">ISEKAI</button>
+<div class="content">
+    <div class="background1">
+    <ol>
+        <li>That Time I Got Reincarnated as a Slime</li>
+        <li>Mushoku Tensei</li>
+        <li>Arifureta</li>
+        <li>KonoSuba</li>
+        <li>Farming Life in Another World</li>
+        <li>Sword Art Online</li>
+        <li>Restaurant to Another World</li>
+        <li>The Saga of Tanya the Evil</li>
+
+    </ol>
+</div>
+</div>
+<br>
+<br>
+<button type="button" class="collapsible" style="text-align: center; width: auto; margin-left: 16%; ">COMEDY MUSIC</button>
+<div class="content">
+<div class="background">
+    <ol>
+        <li>Bocchi the Rock!</li>
+        <li>K-On!</li>
+        <li>Blue Orchestra</li>
+    </ol>
+</div>
+</div>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+        </script>
+</body>
+</html>

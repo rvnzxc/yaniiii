@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/gaming.css">
+</head>
+<body style="background-image: url(/assets/5098675.jpg);">
+    <h3>GAMES I LIKE TO PLAY</h3>
+    <button type="button" class="collapsible" style="text-align: center;">VALORANT</button>
+    <div class="content">
+    <p>
+        Valorant is a thrilling multiplayer tactical shooter developed by Riot Games, 
+        offering precise gunplay and strategic teamwork in high-stakes matches. With a 
+        diverse cast of agents, each with unique abilities, players engage in intense battles 
+        that require skillful coordination. Beyond its gameplay, Valorant serves as a social 
+        platform where players connect with friends and forge new relationships. Its dynamic blend of 
+        competition and camaraderie makes it a beloved choice for gamers seeking excitement and community 
+        online.
+    </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button type="button" class="collapsible2" style="text-align: center;" width>League Of Legends</button>
+    <div class="content">
+        <p>
+           
+League of Legends (LoL) serves as a fallback option for me, 
+typically only turning to it when I'm feeling bored of Valorant. 
+As a multiplayer online battle arena (MOBA) game, LoL offers a change of pace with its strategic depth and 
+diverse champion roster. While it's not my primary game of choice, LoL still provides entertainment and a sense of familiarity 
+when I need a break from Valorant's intense action. Despite being a secondary option, LoL's vast player base and dynamic gameplay 
+ensure that it remains a reliable source of fun during downtime. 
+        </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button type="button" class="collapsible" style="text-align: center;" width>OSU!</button>
+    
+    <div class="content">
+        <p>
+            
+When I'm looking for a fun and music-centric gaming experience, I turn to osu!. 
+This rhythm-based game captivates me with its engaging gameplay mechanics, requiring precise timing and coordination to hit notes in sync with the music. 
+Whether I'm challenging myself with new beatmaps or enjoying my favorite songs, osu! never fails to entertain me. 
+Its fusion of gaming and music makes it a uniquely enjoyable pastime that keeps me coming back for more.
+        </p>
+    </div>
+        <br>
+        <br>
+        <br>
+        <br>
+    
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+        </script>
+         <script>
+            var coll = document.getElementsByClassName("collapsible2");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+            </script>
+</body>
+</html>

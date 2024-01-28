@@ -1,0 +1,52 @@
+h3{
+    margin-top: 10%;
+    text-align: center;
+    text-align: center;
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 400%;
+}
+h4{
+    margin-top: 10%;
+    text-align: left;
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;  
+}
+ol{
+    font-size: x-large;
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 5%;
+}
+.collapsible{
+    border: none;
+    outline: none;
+    font-size: 40px;
+    margin-left: 20%;
+    border-radius: 100px;
+    font-family: "Comic Neue", cursive;
+    cursor: pointer;
+}
+.active, .collapsible:hover{
+    background-color:#93C572;
+}
+.content{
+    margin-left:30%;
+    font-family: "Comic Neue", cursive;
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
+.background{
+    width: 35%;
+    background: rgba(255, 255, 255, 0.541);
+    border-radius: 50px;
+}
+.background1{
+    width: 50%;
+    background:rgba(255, 255, 255, 0.541);
+    border-radius: 50px;
+}
